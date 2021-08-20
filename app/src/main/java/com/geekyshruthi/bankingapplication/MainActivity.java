@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+         setcontentview(R.layout.activity_main);
         btnAllUsers = findViewById(R.id.all_users);
         btnAllTransactions = findViewById(R.id.all_transactions);
 
